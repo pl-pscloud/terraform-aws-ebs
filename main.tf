@@ -9,7 +9,7 @@ resource "aws_ebs_volume" "pscloud-ebs-volumes" {
   kms_key_id                = var.pscloud_kms_key_id
 
   tags = {
-    Name    = "${var.pscloud_company}_ebs_${var.pscloud_env}"
+    Name    = "${var.pscloud_company}_ebs_${var.pscloud_env}_${var.pscloud_project}"
     Project = var.pscloud_project
   }
 }
