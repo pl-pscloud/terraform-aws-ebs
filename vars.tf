@@ -1,6 +1,5 @@
 variable "pscloud_env" {}
 variable "pscloud_company" {}
-variable "pscloud_key_name" {}
 variable "pscloud_project" {}
 variable "pscloud_subnet_id" {}
 variable "pscloud_kms_key_id" { default = ""}
